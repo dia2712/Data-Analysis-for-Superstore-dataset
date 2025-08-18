@@ -8,6 +8,7 @@ The goal is to demonstrate data cleaning, exploratory data analysis (EDA), and v
 
 ##  Dataset
 Source: Kaggle -Sample Superstore Dataset (https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+
 Features: Order ID, Customer Name, Segment, Category, Sub-Category, Sales, Quantity, Discount, Profit, Region, State, Ship Mode, etc.
 
 ## ⚙️ Tech Stack

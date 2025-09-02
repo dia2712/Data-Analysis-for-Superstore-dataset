@@ -1,5 +1,6 @@
 # Superstore Sales Analysis Dashboard
 An interactive Streamlit dashboard analyzing sales, profit, shipping modes, sub-categories, and regions.
+
 Run the Dashboard Live: https://data-analysis-for-superstore-dataset-dfry8kegut6slojoewgrbw.streamlit.app/
 
 ## Project Background

@@ -144,10 +144,7 @@ with tab4:
     regSales=df.groupby('Region')['Sales'].sum().reset_index()
     regProfit=df.groupby('Region')['Profit'].sum().reset_index()
     regSales['Profit']=regProfit['Profit']
-    st.bar_chart(regSales,x='Region',y=['Sales','Profit'],y_label='Sales and profit',color=['#008000','#FFE135'])
-
     fig, axes = plt.subplots(1, 2, figsize=(8, 4))
-
     # Sales Donut
     axes[0].pie(regSales['Sales'], labels=regSales['Region'], autopct='%1.1f%%',
                 startangle=90, wedgeprops=dict(width=0.4))

@@ -15,7 +15,7 @@ df['Order Date']=pd.to_datetime(df['Order Date'])
 df['month']=df['Order Date'].dt.month
 df['year']=df['Order Date'].dt.year
 
-tab1,tab2,tab3,tab4=st.tabs(['overall sales health','Ship Mode vs Sales and Profit','Profitability by Sub-Category','Regional View'])
+tab1,tab2,tab3,tab4=st.tabs(['Sales/Profit Trend','Ship Mode vs Sales and Profit','Profitability by Sub-Category','Regional View'])
 
 st.markdown(
         """

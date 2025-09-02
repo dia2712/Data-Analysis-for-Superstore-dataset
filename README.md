@@ -1,3 +1,7 @@
+# Superstore Sales Analysis Dashboard
+An interactive Streamlit dashboard analyzing sales, profit, shipping modes, sub-categories, and regions.
+Run the Dashboard Live: https://data-analysis-for-superstore-dataset-dfry8kegut6slojoewgrbw.streamlit.app/
+
 ## Project Background
 This project analyzes the Superstore dataset.
 Superstore dataset is a publicly available datset of sales for a fiction US superstore. The dataset simulates a real retail superstore, offering realistic business scenarios for analysis.It is commonly used for data analysis and visualization practice.

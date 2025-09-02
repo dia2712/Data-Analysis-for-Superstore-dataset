@@ -10,7 +10,7 @@ from plotly.subplots import make_subplots
 
 st.title("Superstore sales analysis report")
 
-df = pd.read_csv("superstore.csv", encoding="latin-1")
+df = pd.read_csv("Sample - Superstore.csv", encoding="latin-1")
 df['Order Date']=pd.to_datetime(df['Order Date'])
 df['month']=df['Order Date'].dt.month
 df['year']=df['Order Date'].dt.year
